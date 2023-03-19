@@ -1,35 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <head>
-        <div class="container">
-            <div class="container"></div>
-            <div class="container-2"></div>
-            <body class="bodyContainer"></body>
-        </div>
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moj sajt</title>
+  </head>
+  <body>
+    <style>
+      body {
+        margin: 0;
+      }
+      #nav {
+        width: 100%;
+        height: 60px;
+        background-color: aqua;
+      }
+
+      #nav img {
+        height: 100%;
+        margin-left: 20px;
+      }
+
+      #nav span {
+        font-size: 30px;
+        color: blue;
+      }
+
+      .mainBox {
+        width: 100%;
+        height: 100vh;
+        background-color: blueviolet;
+      }
+
+      .ispodBox {
+        width: 50%;
+        height: 300px;
+        background-color: red;
+      }
+      .treceBox {
+        width: 50%;
+        height: 300px;
+        background-color: #ffffff;
+        margin: 120px 0px 0px 120px;
+      }
+      .treceBox {
+      width: auto;
+      }
+    </style>
+    <header>
+      <div id="nav">
+        <img src="">
+        <span>Moj prvi sajt</span>
+      </div>
+    </header>
     <main>
-        <h1>Tabela</h1>
+      <div class="mainBox">
+        <h1 style="margin: 0">Ovo je pocetna strana</h1>
+        <div class="ispodBox">
+          <p>
+            Ovo je nas neki tekst ovde smo
+          </p>
+        </div>
+        <div class="treceBox"></div>
         <table>
-            <tr>
-                <th>ime</th>
-                <th>prezime</th>
-                <th>broj telefona</th>
-            </tr>
-            <tr class="first">
-                <td>Anisa</td>
-                <td>Sabanovic</td>\
-                <td>0621091101</td>
-            </tr>
-            <tr class="">                
-            </tr>
+          <tr>
+            <th>Ime</th>
+            <th>Prezime</th>
+            <th>broj</th>
+          </tr>
+          <tr>
+            <td>Anisa</td>
+            <td>Sabanovic</td>
+            <td>0621091101</td>
+          </tr>
         </table>
+      </div>
     </main>
-</body>
+  </body>
 </html>

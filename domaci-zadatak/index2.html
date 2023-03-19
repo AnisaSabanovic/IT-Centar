@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body style="margin: 0">
+    <style>
+        main {
+            width: 100%;
+            height: 100vh;
+            background-color: rgb(12, 127, 165);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .mainContainer {
+            width: 70%;
+            height: 90%;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .top {
+            width: 80%;
+            height: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .bot {
+            width: 80%;
+            height: 80%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .card {
+            width: 400px;
+            height: 420px;
+            border: 2px solid rgb(2, 2, 2);
+            gap: 5px;
+        }
+
+        .header {
+            height: 20%;
+            width: 100%;
+            background-color: white;
+        }
+
+        .body {
+            height: 60%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 5px;
+            justify-content: space-between;
+        }
+
+        .fotter {
+            height: 20%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .header img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .body h1 {
+            margin: 0;
+            font-size: 22px;
+        }
+
+        .fotter button {
+            width: 40%;
+            height: 30px;
+            background-color: transparent;
+        }
+    </style>
+    <main>
+        <div class="mainContainer">
+            <div class="top">
+                <h1>Blog Cards</h1>
+            </div>
+            <div class="bot">
+                <div class="card">
+                    <div class="header">
+                        <img alt="slika.png"
+                            src="https://www.fashionabc.org/wp-content/uploads/2019/07/HM-logo-1024x702.jpg"/>
+                    </div>
+                    <div class="body">
+                        <h1>
+                            HM online
+                        </h1>
+                        <p>
+                            Hello Member je u potpunosti digitalan program lojalnosti kroz koji prikupljaš poene kod svake kupovine, kako u prodavnici, tako i online. Možeš da računaš i na specijalne ponude, benefite, pozivnice za ekskluzivne događaje i još mnogo toga.  
+                        </p>
+                    </div>
+                    <div class="fotter">
+                        <button><a href="https://www2.hm.com/sr_rs/customer-service.html">Read More</a></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="header">
+                        <img alt="slika.png" src="https://rtvnp.rs/wp-content/uploads/2020/06/RTX6REQP-e1568226612202.jpg" />
+                    </div>
+                    <div class="body">
+                        <h1>
+                           ZARA online
+                        </h1>
+                        <p>
+                            Kada završite kupovinu, poslaćemo vam poruku e-pošte s potvrdom i detaljima kupovine.
+Podsećamo vas da nećete moći da otkažete i promenite svoju porudžbinu ako je ona u tom trenutku već u naprednoj fazi pripreme.
+                        </p>
+                    </div>
+                    <div class="fotter">
+                        <button><a href="https://www.zara.com/rs/">Read More</a></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="header">
+                        <img alt="base64slika.png"
+                            src="https://www.pixartprinting.co.uk/blog/wp-content/uploads/2021/06/Cover-Valentino.jpg" />
+                    </div>
+                    <div class="body">
+                        <h1>
+                            Valentino
+                        </h1>
+                        <p>Welcome to the official Maison Valentino online boutique. Discover the iconic clothing, bags, shoes and accessories collections by Valentino Garavani.</p>
+                    </div>
+                    <div class="fotter">
+                        <button><a href="https://www.valentino.com/en-rs">Read More</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
